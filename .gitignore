@@ -1,0 +1,5 @@
+*.jpg
+data
+log
+.DS_Store
+__pycache__
