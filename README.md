@@ -16,16 +16,16 @@ Dataset used is CIFAR10 which contains 60,000 images, and images are resized to 
 
  CNN type | Time to train (sec) | # Parameters | GPU Memory | Inference Time
 | --- | --- | --- | --- | --- |
-| Standard 2D | 735.92 | 8,446,218 | 7154MiB |  48.469 |
+| Standard 2D | 735.92 | 8,446,218 | 7154MiB |  48.46 |
 | Atrous | 668.07 | 1,877,258 | 7643MiB | 37.84 |
 | DepthWise | 570.23 | 582,816 | 7752MiB | 34.98 |
 
 Observations: 
-- To me it's strange that the Standard 2D Conv uses 8x more trainable parameters than DepthWise Conv even though uses less GPU memory. I need to investigate more this.
+- To me it seems strange that the Standard 2D Conv uses 8x more trainable parameters than DepthWise Conv even though uses less GPU memory. I need to investigate more this.
 
 
 ## Train loss
-<img src="img/loss.jpg" width=600px>
+<img src="img/loss.jpg" width=800px>
 
 
 ## Running
@@ -43,6 +43,6 @@ This will run three models and generate a image loss.jpg
 
 ## Handwritten notes
 
-<img src="img/note-1.jpg" width="600px">
-<img src="img/note-2.jpg"width="600px">
-<img src="img/note-3.jpg"width="600px">
+<img src="img/note-1.jpg" width="800px">
+<img src="img/note-2.jpg"width="800px">
+<img src="img/note-3.jpg"width="800px">
