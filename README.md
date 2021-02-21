@@ -9,8 +9,6 @@ There are two models, with the same architecture (3 conv layers and a FC layer):
 
 I compared the model size, time taken to train and the train loss.
 
-If you want to learn a quick overview of Conv2d and DepthWise, check this [handwritten notes](img/notes.pdf).
-
 Dataset used is CIFAR10 which contains 60,000 images, and images are resized to 220x220 during the preprocessing phase.
 
 
@@ -41,3 +39,10 @@ python train.py
 ```
 
 This will run three models and generate a image loss.jpg
+
+
+## Handwritten notes
+
+<img src="img/note-1.jpg" width="600px">
+<img src="img/note-2.jpg"width="600px">
+<img src="img/note-3.jpg"width="600px">
